@@ -1,14 +1,4 @@
-# Implementation of a Contextual Chatbot in PyTorch.  
-Simple chatbot implementation with PyTorch. 
-
-- The implementation should be easy to follow for beginners and provide a basic understanding of chatbots.
-- The implementation is straightforward with a Feed Forward Neural net with 2 hidden layers.
-- Customization for your own use case is super easy. Just modify `intents.json` with possible patterns and responses and re-run the training (see below for more info).
-
-The approach is inspired by this article and ported to PyTorch: [https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077).
-
-## Watch the Tutorial
-[![Alt text](https://img.youtube.com/vi/RpWeNzfSUHw/hqdefault.jpg)](https://www.youtube.com/watch?v=RpWeNzfSUHw&list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg)
+Here we have designed a chatbot that gives users responses based on their emotions/sentiments. Sentiment analysis is performed using the naive-bayes algorithm, which is trained using the twocolumndata.csv dataset that we made on our own. We classified the user's emotion into six categories: Sad, Happy, Angry, Disgust, Fear and Surprise. The responses are chosen at randon from the intents.json file based on the user's emotion. The user's message, the sentiment, the response, along with the timestamp of the response is stored to a MongoDB collection. The GUI for the chatbot was designed using Tkinter.
 
 ## Installation
 
