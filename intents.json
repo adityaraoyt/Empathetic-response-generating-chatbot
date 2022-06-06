@@ -1,0 +1,81 @@
+{
+  "intents": [
+    {
+      "tag": "Anger",
+      "patterns": [
+        "Hey calm down",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey calm down",
+        "Calm down",
+        "Tone it down",
+        "It's okay to be angry",
+        "Relax! And tell me what's wrong.",
+        "That's not right, tell me more",
+        "How can I help you?" 
+      ]
+    },
+    {
+      "tag": "Fear",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Don't be afraid",
+        "It's ok to feel afraid",
+        "Stay strong",
+        "Don't worry",
+        "How can I help you?"
+      ]
+    },
+    {
+      "tag": "Hapiness",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["What makes you so cheerful today?","what's the reason behind your happiness?","Had a good day today?","That's great!"]
+    },
+    {
+      "tag": "Neutral",
+      "patterns": [
+        "What services do you provide?",
+        "What kinds of services are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "How are you?",
+        "How was your day?",
+        "What makes you happy?"
+      ]
+    },
+    {
+      "tag": "Sadness",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with PayTM?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "Cheer up! Tell me what's wrong.",
+        "It's ok to feel like that",
+        "Keep smiling"
+      ]
+    },
+    {
+      "tag": "Disgust",
+      "patterns": [
+        "How was this created?",
+        "How long did it take to create this?"
+      ],
+      "responses": [
+        "Cheer up! Tell me what's wrong.",
+        "It's ok to feel like that",
+        "Everything okay?",
+        "How can I help you?"
+      ]
+    }
+    
+  ]
+}
